@@ -311,7 +311,7 @@ nav ul li a{
 
     .container__vector img{
         transform: scale(0.30);
-        height: 10rem;
+        height: 25rem;
         width: auto;       
         margin: auto;
         animation: none;
