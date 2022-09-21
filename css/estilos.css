@@ -313,7 +313,6 @@ nav ul li a{
         transform: scale(0.30);
         height: 40rem;
         width: auto;       
-        right: 5px;
         margin: auto;
         animation: none;
     }
