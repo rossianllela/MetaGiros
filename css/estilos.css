@@ -275,7 +275,7 @@ nav ul li a{
     }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 720px){
 
     .container__nav{
        display: flex;
@@ -311,7 +311,7 @@ nav ul li a{
 
     .container__vector img{
         transform: scale(0.30);
-        height: 40rem;
+        height: 10rem;
         width: auto;       
         margin: auto;
         animation: none;
