@@ -310,11 +310,8 @@ nav ul li a{
     }
 
     .container__vector img{
-        transform: scale(0.30);
-        height: 95%;
-        width: auto;       
-        margin: auto;
-        animation: none;
+        height: auto;
+        max-width: 100%;
     }
 
 }
