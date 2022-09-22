@@ -308,8 +308,7 @@ nav ul li a{
     }
 
     .container__vector img{
-        transform: scale(0.30);
-        height: 150%;
+        height: 10rem;
         width: auto;
         margin: auto;
     }
