@@ -266,7 +266,7 @@ nav ul li a{
     }
 }
 
-@media screen and (max-width: 920px){
+@media screen and (max-width: 1080px){
 
     .container__vector img{
         height: 10rem;
