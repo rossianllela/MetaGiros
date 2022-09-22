@@ -654,8 +654,8 @@ input[type="submit"]:hover{
     }
 
     .container__vector img{
-        height: 10rem;
-        width: auto;
+        height: auto;
+        width: 10rem;
         margin: auto;
     }
     /* Cards */
