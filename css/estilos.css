@@ -273,7 +273,7 @@ nav ul li a{
     }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 720px){
 
     .container__nav{
        display: flex;
@@ -650,6 +650,11 @@ input[type="submit"]:hover{
         width: 100%;
     }
 
+    .container__vector img{
+        height: 10rem;
+        width: auto;
+        margin: auto;
+    }
     /* Cards */
 
     .card{
@@ -660,7 +665,7 @@ input[type="submit"]:hover{
     /* galeria */
 
     .galeria-cont>img{
-        width: 48%;
+        width: 98%;
     }
 
     /* last */
@@ -698,5 +703,10 @@ input[type="submit"]:hover{
 
     .galeria-cont>img{
         width: 97%;
+    }
+    .container__vector img{
+        height: 10rem;
+        width: auto;
+        margin: auto;
     }
 }
