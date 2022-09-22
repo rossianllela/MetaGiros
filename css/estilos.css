@@ -312,7 +312,8 @@ nav ul li a{
     .container__vector img{
         height: 10rem;
         width: auto;
-        margin: auto;
+        float: left;
+        margin: auto auto auto 0;
     }
 
 }
