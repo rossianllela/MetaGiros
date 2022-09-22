@@ -266,15 +266,6 @@ nav ul li a{
     }
 }
 
-@media screen and (max-width: 1080px){
-
-    .container__vector img{
-        height: 10rem;
-        width: auto;
-        margin: auto;
-    }
-}
-
 @media screen and (max-width: 720px){
 
     .container__nav{
@@ -314,6 +305,7 @@ nav ul li a{
         width: auto;
         float: left;
         margin: auto auto auto 0;
+        right: 20px;
     }
 
 }
@@ -421,11 +413,6 @@ footer{
     height: 1px;
     background-color: #7a7a7a;
 }
-
-
-
-
-
 
 .contenedor,
 .wave-contenedor{
@@ -654,10 +641,10 @@ input[type="submit"]:hover{
     }
 
     .container__vector img{
-        height: auto;
-        width: 10rem;
-        margin: auto;
-    }
+        height: 10rem;
+        width: auto;
+        float: left;
+        margin: auto auto auto 0;
     /* Cards */
 
     .card{
@@ -681,7 +668,6 @@ input[type="submit"]:hover{
         width: 98%;
         margin-bottom: 20px;
     }
-
 
 }
 
@@ -713,3 +699,7 @@ input[type="submit"]:hover{
         margin: auto;
     }
 }
+
+
+
+
