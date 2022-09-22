@@ -303,9 +303,7 @@ nav ul li a{
     .container__vector img{
         height: 10rem;
         width: auto;
-        float: left;
         margin: auto auto auto 0;
-        right: 20px;
     }
 
 }
@@ -637,14 +635,12 @@ input[type="submit"]:hover{
     }
 
     .website .contenedor-textos-main{
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
 
-    .container__vector img{
-        height: 10rem;
-        width: auto;
-        float: left;
-        margin: auto auto auto 0;
+   
     /* Cards */
 
     .card{
@@ -667,6 +663,7 @@ input[type="submit"]:hover{
     .last-section .contenedor-textos-main{
         width: 98%;
         margin-bottom: 20px;
+
     }
 
 }
@@ -693,10 +690,18 @@ input[type="submit"]:hover{
     .galeria-cont>img{
         width: 97%;
     }
+
+    .container__vector{
+    display: flex;
+}
     .container__vector img{
-        height: 10rem;
-        width: auto;
-        margin: auto;
+        max-width: 150px;
+        height: auto;
+        width: 40rem;
+         margin-right: 2em;
+        margin-top: -3em;
+        margin-left: -6em;
+       
     }
 }
 
